@@ -1,0 +1,12 @@
+d1 = input("Enter your name: ")
+d2 = input("Enter your surname: ")
+d3 = input("Enter year of bday: ")
+d4 = input("Enter your city: ")
+d5 = input("Enter your email: ")
+d6 = input("Enter phone number: ")
+
+
+def my_func(**kwargs):
+    return kwargs
+
+print(my_func(Name=d1, surname=d2, bday=d3, city=d4, email=d5, phone=d6))
