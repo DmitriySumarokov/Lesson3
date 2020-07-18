@@ -1,0 +1,8 @@
+def my_func(a, b, c):
+    global s, m
+    s = a + b + c
+    m = s - min(a, b, c)
+    return m
+
+
+print(my_func(int(input("a ")), int(input("b ")), int(input("c "))))
